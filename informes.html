@@ -104,12 +104,7 @@
             <i class="fa-solid fa-lock"></i>  Cambiar Contraseña
             <span class="float-right text-muted text-sm"></span>
           </a>
-          
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <i class="fas fa-file mr-2"></i>Informer Por Filtrar
-            <span class="float-right text-muted text-sm"></span>
-          </a>
+        
           <div class="dropdown-divider"></div>
           <a href="index.html" class="dropdown-item">
             <i class="fa-solid fa-circle-xmark"></i> Cerrar Sesión
@@ -202,7 +197,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Informes</h1>
+            <h1 class="m-0">INFORMES</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
           </div><!-- /.col -->
@@ -213,80 +208,58 @@
 
 <!-- INICIO DE CONTENIDO -->
 
-    <!-- Main content -->
-    <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
-        <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>150</h3>
-
-                <p>New Orders</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-bag"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>53<sup style="font-size: 20px">%</sup></h3>
-
-                <p>Bounce Rate</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-stats-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-
-                <p>User Registrations</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>65</h3>
-
-                <p>Unique Visitors</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-pie-graph"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
-        <!-- /.row -->
-
-      </div><!-- /.container-fluid -->
-    </section>
-    <!-- /.content -->
+<div class="card container col-md-6">
+  <div class="col-sm-12">
+    <!-- select -->
+    <div class="form-group">
+      <br>
+      <label>Tipos de informes:</label>
+      <select class="form-control">
+        <option selected disabled>--seleciona los usuarios--</option>
+        <option>Registrados</option>
+        <option>Desabilitados</option>
+        <option>Eliminados</option>
+        <option>Modificados</option>
+      </select>
+    </div>
   </div>
-  <!-- FIN DE CONTENIDO -->
+  <div class="col-sm-12">
+    <div class="form-group">
+      <label>Fecha inicio:</label>
 
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="far fa-calendar-alt"></i>
+          </span>
+        </div>
+        <input type="date" class="form-control float-right" id="reservation">
+      </div>
+      <!-- /.input group -->
+    </div>
+  </div>
+  <div class="col-sm-12">
+    <div class="form-group">
+      <label>Fecha fin:</label>
+
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text">
+            <i class="far fa-calendar-alt"></i>
+          </span>
+        </div>
+        <input type="date" class="form-control float-right" id="reservation">
+      </div>
+      <!-- /.input group -->
+    </div>
+  </div>
+  <button type="submit" class="col-sm-4 btn btn-primary">Generar Reportes</button>
+  <br>
+</div>
+
+<!-- FIN DE CONTENIDO -->
+  </div>
+ 
 <!-- Inicio de Pie de pagina -->
   <!-- /.content-wrapper -->
   <footer class="main-footer">

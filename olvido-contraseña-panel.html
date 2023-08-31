@@ -107,11 +107,6 @@
           </a>
           
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item">
-            <i class="fas fa-file mr-2"></i>Informer Por Filtrar
-            <span class="float-right text-muted text-sm"></span>
-          </a>
-          <div class="dropdown-divider"></div>
           <a href="index.html" class="dropdown-item">
             <i class="fa-solid fa-circle-xmark"></i> Cerrar Sesión
             <span class="float-right text-muted text-sm"></span>
@@ -215,33 +210,34 @@
 
    <!-- INICIO FORMULARIO CAMBIO DE CONTRASEÑA -->
    <br>
-  <div class="card container col-md-6">
-    <div class="col-12 card-body login-card-body">
-      <p class="login-box-msg">¿Olvidaste tu contraseña? Aquí puede recuperar fácilmente una nueva contraseña.</p>
+   <div class="card container col-md-6">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Estás a un paso de tu nueva contraseña, cambia tu contraseña ahora.</p>
 
-      <form action="recuperar-contraseña.html" method="post">
+      <form action="index.html" method="post">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Correo electrónico">
+          <input type="password" class="form-control" placeholder="Contraseña">
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" placeholder="Confirmar contraseña">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block">Pide tu nueva contraseña</button>
+            <button type="button" class="btn btn-primary btn-block">Cambiar la contraseña</button>
           </div>
           <!-- /.col -->
         </div>
       </form>
-
-      <p class="mt-3 mb-1">
-        <a href="index.html">Inicio de sesión</a>
-      </p>
-      <p class="mb-0">
-        <a href="registro.html" class="text-center">Registrar una nueva cuenta</a>
-      </p>
     </div>
     <!-- /.login-card-body -->
   </div>
